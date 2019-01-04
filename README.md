@@ -7,7 +7,7 @@ To download files open terminal and browse to the folder you want to store the d
 
 Clone the repository by typing: 
 
-`git clone https://github.com/3Dimaging-ucl/cege0092_practical`
+`git clone https://github.com/3Dimaging-ucl/ucl_cege0092`
 
 Next move into the folder and open jupyter notebook with: 
 
@@ -17,6 +17,22 @@ jupyter notebook
 ```
 
 Finally, open the file `opencv_practical.ipynb`. It is important you run `jupyter notebook` whilst in the `ucl_cege075` directory as otherwise the file paths will not work correctly.
+
+## Running on Google Colab ##
+
+This notebook can be run on google colab with a few minor alterations to avoid the need for setting up a local python environment. First navigate to [Google Colab](https://colab.research.google.com/). If you have not already, you will need to create a google account.
+
+On the top bar navigate to `GITHUB` and enter the organization `3Dimaging-ucl`. Open the file `opencv_practical.ipynb` under the `ucl_cege0092` respository. 
+
+Next, run the following code cell at the top of the notebook:
+
+`!git clone https://github.com/3Dimaging-ucl/ucl_cege0092 data`
+
+Open the files tab (small arrow below CO logo in top left) and click `refresh` if you do not see the folder `data`. These are all the files required for the practical.
+
+To enable the new file structure to work, you will need to append the string `data/` infront of any file paths. For example, `file = 'images/aerial_small.tif'` becomes `file = 'data/images/aerial_small.tif'`. 
+
+The rest of the practical will now work as normal.
 
 ## Installing OpenCV on your own machine ##
 
