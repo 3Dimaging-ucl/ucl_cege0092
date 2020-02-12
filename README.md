@@ -18,11 +18,15 @@ jupyter notebook
 
 Finally, open the file `opencv_practical.ipynb`. It is important you run `jupyter notebook` whilst in the `ucl_cege075` directory as otherwise the file paths will not work correctly.
 
+## Running on Microsoft Azure Notebooks ##
+
+This notebook can be run on Azure Notebooks if you clone it into a new project. First navigate to [Azure Notebooks](https://https://notebooks.azure.com//). Your UCL login will work, so no new account is needed. Navigate to `My Projects` and select `Upload GitHub Repo`. Enter the repository URL `3Dimaging-ucl/ucl_cege0092`. Give it a minute or two until all the files are uploaded to your project. Then simply `Run` the project.
+
 ## Running on Google Colab ##
 
 This notebook can be run on google colab with a few minor alterations to avoid the need for setting up a local python environment. First navigate to [Google Colab](https://colab.research.google.com/). If you have not already, you will need to create a google account.
 
-On the top bar navigate to `GITHUB` and enter the organization `3Dimaging-ucl`. Open the file `opencv_practical.ipynb` under the `ucl_cege0092` respository. 
+On the top bar navigate to `GITHUB` and enter the organization Upload GitHub Repo3Dimaging-ucl`. Open the file `opencv_practical.ipynb` under the `ucl_cege0092` respository. 
 
 Next, run the following code cell at the top of the notebook:
 
