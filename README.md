@@ -20,6 +20,7 @@ Finally, open the file `opencv_practical.ipynb`. It is important you run `jupyte
 
 ## Running on GitHub Codespace ##
 This repository has a .devcontainer subdirectory and a requirenments.txt which contain the cofigutration for a development conatiner in Codespace. To create a Codespace from the Repository click the  Code button, then click the Codespaces tab.
+
 ![Alt text](image.png)
 
 ## Running on Google Colab ##
