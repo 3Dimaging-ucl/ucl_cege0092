@@ -18,6 +18,10 @@ jupyter notebook
 
 Finally, open the file `opencv_practical.ipynb`. It is important you run `jupyter notebook` whilst in the `ucl_cege075` directory as otherwise the file paths will not work correctly.
 
+## Running on GitHub Codespace ##
+This repository has a .devcontainer subdirectory and a requirenments.txt which contain the cofigutration for a development conatiner in Codespace. To create a Codespace from the Repository click the  Code button, then click the Codespaces tab.
+![Alt text](image.png)
+
 ## Running on Google Colab ##
 
 This notebook can be run on google colab with a few minor alterations to avoid the need for setting up a local python environment. First navigate to [Google Colab](https://colab.research.google.com/). If you have not already, you will need to create a google account.
