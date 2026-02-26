@@ -5,7 +5,7 @@
     },
     "waitFor": "onCreateCommand",
     "updateContentCommand": "",
-    "postCreateCommand": "pip install --user -r requirements.txt",
+    "postCreateCommand": "sudo apt clean && pip install --user -r requirements.txt",
     "customizations": {
       "codespaces": {
         "openFiles": []
